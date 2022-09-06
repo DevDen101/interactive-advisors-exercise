@@ -1,0 +1,24 @@
+.card-collection-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    padding: 3em 0 3em 0;
+}
+
+.outer-card-container{
+    width: 25%;
+}
+
+@media only screen and (max-width: 850px) {
+    .outer-card-container {
+      width: 40%;
+    }
+  }
+
+@media only screen and (max-width: 550px) {
+    .outer-card-container {
+      width: 80%;
+    }
+  }

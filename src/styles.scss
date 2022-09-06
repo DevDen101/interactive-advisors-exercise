@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #FFC53A;
+}
+
+:root {
+  --flex-row-width: 100%;
+}
+
+.flex-row {
+  display: flex;
+
+  &.start {
+    justify-content: flex-start;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.end {
+    justify-content: flex-end;
+  }
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.width {
+    width: var(--flex-row-width);
+  }
+}

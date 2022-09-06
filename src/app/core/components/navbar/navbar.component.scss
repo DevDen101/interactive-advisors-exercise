@@ -1,0 +1,15 @@
+.navbar-container {
+  background: #fc5130;
+  height: 5%;
+  padding: 1em;
+}
+
+.nav-links-container {
+  margin-left: auto;
+  display: flex;
+  gap: 1em;
+}
+
+h2:hover {
+  cursor: pointer;
+}

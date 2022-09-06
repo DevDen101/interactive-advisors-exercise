@@ -1,0 +1,7 @@
+<div class="card-collection-container">
+  <ng-container *ngFor="let cardConfig of cardCollectionConfig.cardConfigs">
+    <div class="outer-card-container">
+      <app-card [cardConfig]="cardConfig"></app-card>
+    </div>
+  </ng-container>
+</div>

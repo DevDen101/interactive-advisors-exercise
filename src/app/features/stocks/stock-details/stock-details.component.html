@@ -1,0 +1,17 @@
+<div class="stock-details-container">
+  <div class="stock-details-content">
+    <h1>{{ stock.title }}</h1>
+    <h2>{{ stock.subTitle }}</h2>
+    <h3>{{ stock.description }}</h3>
+  </div>
+  <div class="canvas-container">
+    <canvas
+      baseChart
+      [type]="'line'"
+      [data]="lineChartData"
+      [options]="lineChartOptions"
+      [legend]="lineChartLegend"
+    >
+    </canvas>
+  </div>
+</div>
