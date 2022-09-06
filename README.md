@@ -36,6 +36,8 @@ Given the time constraints, there were a few other features and parts of the imp
 
 4) Adding more unit tests to increase test coverage; Due to time constraints, I was unable to achieve my desired test coverage.
 
+5) Abstract the graph into it's own generic component and reference it from a parent component. 
+
 # Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
